@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/employee")
+@CrossOrigin
 public class EmployeeResource {
     private final EmployeeService employeeService;
 
